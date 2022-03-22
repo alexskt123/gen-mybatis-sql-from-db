@@ -8,7 +8,8 @@
     "check-pretty": "npx prettier --check .",
     "prepare": "husky install",
     "fix": "lint-staged",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "run": "node index.js"
   },
   "dependencies": {
     "change-case": "^4.1.2",
