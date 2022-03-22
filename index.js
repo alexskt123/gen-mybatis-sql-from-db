@@ -6,6 +6,8 @@ try {
 
   refreshOutputDir();
   outputSQLFiles(xlsxContent);
+
+  log.info("Success!");
 } catch (e) {
   log.error(e);
 }
